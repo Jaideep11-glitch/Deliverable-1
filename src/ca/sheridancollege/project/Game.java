@@ -3,6 +3,13 @@
  * @date September 22, 2024
  */
 
+/**
+ * Abstract class representing a game with players and game rules.
+ * This class provides the general structure for a game, including adding players and 
+ * playing the game. Specific games like WarGame will extend this class and implement 
+ * the specific play and declareWinner methods.
+ */
+
 package ca.sheridancollege.project;
 
 import java.util.ArrayList;

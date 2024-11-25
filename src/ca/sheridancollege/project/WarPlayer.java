@@ -10,6 +10,12 @@ import java.util.ArrayList;
  *
  * @author jaideep
  */
+
+/**
+ * Represents a player in the War game.
+ * Each player has a hand of cards and can play them during each round.
+ */
+
 public class WarPlayer extends Player{
     private final ArrayList<Card> hand;
     public WarPlayer(String name) {

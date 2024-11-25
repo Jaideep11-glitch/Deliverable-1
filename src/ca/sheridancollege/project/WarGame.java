@@ -11,6 +11,13 @@ import java.util.Scanner;
  *
  * @author jaideep
  */
+
+/**
+ * The specific implementation of the Game class for the "War" card game.
+ * This class handles the game play logic, including creating the deck, dealing cards, 
+ * playing rounds, and declaring a winner.
+ */
+
 public class WarGame extends Game{
     private final ArrayList<Card> deck;
     private ArrayList<WarPlayer> players;

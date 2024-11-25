@@ -3,6 +3,12 @@
  * @date September 22, 2024
  */
 
+/**
+ * Class representing a collection of cards for a game.
+ * This class handles the management of cards, including adding cards, 
+ * checking if the group is full, and shuffling the cards.
+ */
+
 package ca.sheridancollege.project;
 
 import java.util.ArrayList;
